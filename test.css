@@ -1,0 +1,145 @@
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: #262626;
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: -40px;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+
+}
+a {
+  color: white;
+}
+li a:hover {
+
+    color: black;
+}
+
+#shop {
+  background-color: #f27171;
+  border-radius: 25px;
+  width: 50px;
+  height: 100%;
+}
+
+#cover {
+  height: 900px;
+  position: relative;
+  top: -55px;
+  width: 100%;
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#logo {
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  padding: 0px 50px;
+}
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 72px;
+  line-height: 60px;
+  padding: 20px 10px;
+  text-align: center;
+  position: absolute;
+}
+
+h2 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  left: 0px;
+}
+
+h3 {
+  color: #14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #FCA311;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  margin: 0px 0px 50px 0px;
+}
+
+p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  top: 650px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.products {
+  box-sizing: border-box;
+  width: 70%;
+  height: 80%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+#lp {
+  box-sizing: border-box;
+  width: 60%;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+.blue {
+  color: #14213D !important;
+}

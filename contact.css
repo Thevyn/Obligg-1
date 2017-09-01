@@ -1,6 +1,5 @@
 #h2 {
 position: absolute;
-left: 100px;
 }
 
 #h3 {
@@ -11,38 +10,45 @@ left: 100px;
   border-radius: 20px;
 
 }
+.content {
+box-sizing: border-box;
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+  position: relative;
 
+}
 #thevy {
 position: absolute;
-left: 100px;
 top: 200px;
 font-size: 130%;
+color: black;
 }
 
 #p1 {
   position: absolute;
-  left: 100px;
   top: 540px;
   font-size: 100%;
+  color: black;
 }
 
 #p2 {
   position: absolute;
-  left: 100px;
   font-size: 100%;
+  color: black;
+  top: 600px;
 }
 
 #p3 {
   position: absolute;
-  left: 100px;
   font-size: 100%;
-  top: 620px;
+  top: 700px;
+  color: black;
 }
 
 #img1 {
   position: absolute;
   top: 270px;
-  left: 100px;
   border-radius: 20px;
 }
 
@@ -53,13 +59,13 @@ top: 300px;
 }
 
 #ahmed {
-  position: absolute;
-  left: 100px;
+  position: relative;
   top: 580px;
+  color: black;
 }
 
 #daniel {
-  position: absolute;
-  left: 100px;
-  top: 700px;
+  position: relative;
+  top: 600px;
+  color: black;
 }

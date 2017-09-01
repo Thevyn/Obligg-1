@@ -1,6 +1,8 @@
 var slideIndex = 0;
 showSlides();
 
+document.getElementById('btnBuy').onclick = buyNow;
+
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -16,4 +18,8 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+
+function buyNow() {
+  location.href ="buynow.html";
 }
